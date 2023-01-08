@@ -1,0 +1,146 @@
+body {
+    padding: 3% 10%;
+    background-color: #f8f7f2;
+}
+
+hr {
+    margin: 0% 10%;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    background: #ef9645;
+}
+
+::selection {
+    background: #ef9645;
+}
+
+.navbar {
+    padding: 0% 5%;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #ef9645;
+}
+
+.nav-name {
+    font-size: 6rem;
+}
+
+.nav-item {
+    padding: 0% 7%;
+}
+
+.nav-link {
+    font-family: 'Alata', sans-serif;
+    font-size: 2rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #ef9645;
+}
+
+.register-button {
+    background-color: #ffdc5d;
+    border-radius: 7%;
+}
+
+.register-button:hover {
+    background-color: #fdcd1f;
+    border-radius: 7%;
+    text-decoration: none;
+}
+
+.hero {
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 4rem;
+}
+
+
+.about {
+    padding: 7% 10%;
+}
+
+.second-step {
+    text-align: right;
+}
+
+.step-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.step-description {
+    font-family: 'Alata', sans-serif;
+    font-size: 1.5rem;
+}
+
+.step-summary {
+    padding-top: 3%;
+    font-family: 'Alata', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 10%;
+}
+
+
+.register {
+    min-height: 80vh;
+    padding: 7% 10%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.register-sctn {
+    font-family: 'Alata', sans-serif;
+    font-size: 4rem;
+    color: black;
+    text-decoration: none;
+    padding: 1%;
+    z-index: 0;
+}
+
+.video-bg {
+    padding-top: 10%;
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    object-fit: fill;
+}
+
+.form-label {
+    font-family: 'Alata', sans-serif;
+    font-size: 1.3rem;
+}
+
+.reg-form {
+    margin: auto;
+    padding: 7% 1%;
+}
